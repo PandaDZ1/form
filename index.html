@@ -1,0 +1,76 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <title>survey-form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+      
+      <h1 id="title">Survey Form</h1>
+      <p id="description">pls enter your correspondant informations to continue</p>
+      <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name</label>
+        <input id="name" typr="text" placeholder="My name is Youpi"></input>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Youpi@gmail.com"></input>
+        <label for="number" id="number-label">Age</label>
+        <input id="number" type="number" min="13" max="120" placeholder="I'am 18 years old"></input>
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown">
+          <option value="0">(select one)</option>
+          <option value="1">student</option>
+          <option value="2">full job time</option>
+          <option value="3">full time learner</option>
+          <option value="4">Other</option>
+        </select>
+        <label>Would you recommend Youpi to a friend?</label>
+        <div class="top-window">
+        <input checked class="checkbox-radio" type="radio" name="recommendation" value="Definitely"></input>
+        <label class="radio-checkbox-text">Definitely</label>
+        </div>
+        <div>
+        <input class="checkbox-radio" type="radio" name="recommendation" value="Maybe"></input>
+        <label class="radio-checkbox-text">Maybe</label>
+        </div>
+        <div>
+        <input class="checkbox-radio" type="radio" name="recommendation" value="Nope"></input>
+        <label class="radio-checkbox-text last-radio-text">Nope</label>
+        </div>
+        <hr>
+        <label>What would you like to see improved? </label>
+
+        <div class="top-window">
+          <input class="checkbox-radio" type="checkbox" name="checkbox" value="01"></input>
+          <label class="radio-checkbox-text">Niches</label>
+        </div>
+        <div>
+          <input class="checkbox-radio" type="checkbox" name="checkbox" value="02"></input>
+          <label class="radio-checkbox-text">content quality</label>
+        </div>
+        <input class="checkbox-radio" type="checkbox" name="checkbox" value="03"></input>
+          <label class="radio-checkbox-text">forum</label>
+        </div>
+        <div>
+        <input class="checkbox-radio" type="checkbox" name="checkbox" value="04"></input>
+          <label class="radio-checkbox-text">referencement</label>
+        </div>
+        <hr>
+        <label>Any comments or suggestions?</label>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <button type="submit" id="submit">Submit</button>
+
+
+
+
+        </fieldset>
+
+
+      </form>
+
+
+
+
+    </body>

@@ -1,0 +1,103 @@
+body{
+  background-image:url(hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+  font-family: Arial;
+  font-size: 18px;
+  color: #fbfcfc ;
+}
+
+h1,p {
+  text-align: center;
+  color:  #3d4d3e ;
+  font-family: Monospace;
+}
+h1{
+  font-size: 36px;
+}
+p{
+  font-size: 26px;
+}
+form{
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+fieldset{
+  display:block;
+  background-color:    #154360 ;
+  /* border: 4px dashed     #2e4053   ; */
+  border: none;
+  box-shadow: 6px 6px 5px #2e86c1;
+}
+label{
+  display: block;
+  padding: 0 10%;
+  margin : 20px 0 0 0;
+  font-size: 22px;
+}
+
+input, select{
+  display: block;
+  margin: 10px 10% ;
+  width: 80%;
+  height:30px;
+  background-color:  #21618c ;
+  border: 0;
+  color: white;
+  font-size: 17px;
+}
+
+#name-label{
+  margin-top: 30px;
+}
+
+.checkbox-radio{
+  display: inline-block;
+  margin: 0 0 0 10%;
+  width: 16px;
+}
+.radio-checkbox-text{
+  display: inline-block;
+  padding:0 0 0 14px;
+  margin : 0 0 -31.05 0;
+}
+.last-radio-text{
+  color:      #ec7063   ;
+  /* text-shadow: */
+}
+div{
+  margin: 0px 0 0 0;
+}
+.top-window{
+  margin-top: 20px;
+}
+
+hr{
+  width: 85%;
+  background-color:  #21618c ;
+  height: 3px;
+  border: none;
+}
+textarea{
+  color: #fbfcfc;
+  font-size: 18px;
+  display: block;
+  background-color: #21618c;
+  border: none;
+  margin: 20px auto 0 auto;
+  width: 90%;
+  height: 100px;
+}
+
+button{
+  font-size: 25px;
+  background-color: #0080FFED;
+  border: none;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 90%;
+  height: 35px;
+  color: #81FB2E;
+  font-family:Monospace;
+}
+
